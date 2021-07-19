@@ -1,0 +1,13 @@
+version: '3'
+services:
+  postgres:
+    environment:
+      - POSTGRES_PASSWORD=docker
+      - POSTGRES_USER=postgres
+      - POSTGRES_DB=iganit-master-data
+    restart: always
+    image: postgres:latest
+    ports:
+      - "5532:5432"
+    volumes:
+      - ./data:/var/lib/postgresql/data/  
