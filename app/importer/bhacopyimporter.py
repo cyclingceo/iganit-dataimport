@@ -33,7 +33,7 @@ class NSEBhavCopyImporter:
                    'User-Agent': 'User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:89.0) Gecko/20100101 Firefox/89.0',
                    'Accept': 'application/json, text/plain, */*', 'Accept-Language': 'en-US,en;q=0.5',
                    'Accept-Encoding': 'gzip, deflate, br',
-                   'Origin': 'https://www.bseindia.com', 'Connection': 'keep-alive',
+                   'Origin': 'https://www1.nseindia.com', 'Connection': 'keep-alive',
                    'Referer': 'https://www1.nseindia.com/products/content/equities/equities/archieve_eq.htm',
                    'Upgrade-Insecure-Requests': '1', 'Sec-Fetch-Dest': 'document','Sec-Fetch-Mode': 'navigate', 'Sec-Fetch-Site':'same-origin', 'Sec-Fetch-User': '?1'}
         file_path = 'https://www1.nseindia.com/content/historical/EQUITIES/2021/JUL/cm16JUL2021bhav.csv.zip'
